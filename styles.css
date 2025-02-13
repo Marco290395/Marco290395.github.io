@@ -43,6 +43,8 @@
   .about-image-container {
     height: 15rem;
     margin-top: 2rem;
+    display: flex;
+    justify-content: center;
   }
 
   .career-container {
@@ -70,6 +72,8 @@
 
   .talk-therapy-image-container {
     height: 13rem !important;
+    display: flex;
+    justify-content: center;
   }
 
   .hypnosis-container {
@@ -84,6 +88,8 @@
 
   .hypnosis-image-container {
     height: 13rem !important;
+    display: flex;
+    justify-content: center;
   }
 
   .fee-container {
@@ -191,7 +197,6 @@ main {
   position: absolute;
   max-height: 100%;
   max-width: 100%;
-  position-area: center;
 }
 
 .career-container {
@@ -229,7 +234,6 @@ main {
   position: absolute;
   height: 100%;
   max-width: 100%;
-  position-area: center;
 }
 
 .hypnosis-container {
@@ -253,7 +257,6 @@ main {
   position: absolute;
   height: 100%;
   max-width: 100%;
-  position-area: center;
 }
 
 .fee-container {

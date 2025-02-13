@@ -1,0 +1,314 @@
+@media only screen and (min-width: 800px) {
+  html {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .container-fluid {
+    flex-flow: column !important;
+  }
+
+  .navbar-collapse {
+    font-size: x-small !important;
+  }
+
+  .navbar-nav {
+    gap: 0 !important;
+    flex-direction: row !important;
+  }
+
+  .sub-section {
+    margin: 0 3rem !important;
+  }
+
+  .main-title-container {
+    display: initial !important;
+  }
+
+  .main-title-image {
+    height: 6rem !important;
+  }
+
+  .main-title-text {
+    padding-top: 1rem !important;
+  }
+
+  .about-container {
+    padding: 2rem 2rem 4rem 2rem !important;
+    display: block !important;
+  }
+
+  .about-image-container {
+    height: 15rem;
+    margin-top: 2rem;
+  }
+
+  .career-container {
+    line-height: 2rem !important;
+  }
+
+  .career-date {
+    padding-right: 3rem !important;
+  }
+
+  .career-text {
+    padding-left: 0 !important;
+    padding-right: 4rem !important;
+  }
+
+  .talk-therapy-container {
+    line-height: 2rem !important;
+    padding-right: 2rem !important;
+    padding-left: 2rem !important;
+  }
+
+  .talk-therapy-points-and-image {
+    display: block !important;
+  }
+
+  .talk-therapy-image-container {
+    height: 13rem !important;
+  }
+
+  .hypnosis-container {
+    line-height: 2rem !important;
+    padding-right: 2rem !important;
+    padding-left: 2rem !important;
+  }
+
+  .hypnosis-points-and-image {
+    display: block !important;
+  }
+
+  .hypnosis-image-container {
+    height: 13rem !important;
+  }
+
+  .fee-container {
+    padding: 0 2rem 2rem 2rem !important;
+  }
+
+  .maps-container {
+    height: 20rem !important;
+    padding: 0 !important;
+  }
+}
+
+.section {
+  color: #0d6a07 !important;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  border-top: 1px solid;
+  margin: 0 2rem;
+}
+
+.sub-section {
+  color: #0d6a07 !important;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  border-top: 1px dotted;
+  margin: 0 6rem;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  background-color: #f5f5dc;
+  font-family: Georgia, serif;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  z-index: 100;
+  font-weight: bold;
+  color: #0d6a07 !important;
+  background-image: url('images/forest.jpg');
+}
+
+.navbar-nav {
+  margin-left: auto;
+  gap: 0.5rem;
+}
+
+.forest-image {
+  width: 100%;
+  height: 30rem;
+  position: relative;
+  background-image: url('images/forest.jpg');
+  display: flex;
+}
+
+.main-title {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  align-content: center;
+  color: #fff;
+}
+
+.main-title-container {
+  display: inline-flex;
+  vertical-align: middle;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.main-title-image {
+  height: 10rem;
+}
+
+.about-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 2rem 6rem 4rem 8rem;
+  gap: 7rem;
+}
+
+.about-text {
+  text-align: justify;
+  line-height: 2rem;
+}
+
+.about-image-container {
+  width: 100%;
+  position: relative;
+}
+
+.about-image {
+  position: absolute;
+  max-height: 100%;
+  max-width: 100%;
+  position-area: center;
+}
+
+.career-container {
+  padding-bottom: 4rem;
+  line-height: 3rem;
+}
+
+.career-date {
+  text-align: right;
+  padding-right: 5rem;
+}
+
+.career-text {
+  padding-left: 0;
+}
+
+.talk-therapy-container {
+  line-height: 2rem;
+  text-align: justify;
+  padding: 0 8rem 2rem 8rem;
+}
+
+.talk-therapy-points-and-image {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+
+.talk-therapy-image-container {
+  width: 100%;
+  position: relative;
+}
+
+.talk-therapy-image {
+  position: absolute;
+  height: 100%;
+  max-width: 100%;
+  position-area: center;
+}
+
+.hypnosis-container {
+  line-height: 2rem;
+  text-align: justify;
+  padding: 0 8rem 2rem 8rem;
+}
+
+.hypnosis-points-and-image {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+
+.hypnosis-image-container {
+  width: 100%;
+  position: relative;
+}
+
+.hypnosis-image {
+  position: absolute;
+  height: 100%;
+  max-width: 100%;
+  position-area: center;
+}
+
+.fee-container {
+  padding: 0 8rem 2rem 8rem;
+  line-height: 2rem;
+}
+
+.fee-list-container {
+  line-height: 1.5rem;
+  justify-items: center;
+  display: grid;
+}
+
+.fee-list {
+  list-style-type: disclosure-closed;
+}
+
+.maps-container {
+  height: 30rem;
+  padding: 0 15rem;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.contact-details {
+  line-height: 2rem;
+}
+
+.footer {
+  width: 100%;
+  position: relative;
+}
+
+.footer-data {
+  position: absolute;
+  bottom: 0;
+  right: 1rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.footer-text {
+  font-size: 0.7rem;
+}
+
+.text-font {
+  font-family: Arial Narrow, sans-serif;
+  font-size: large;
+}
+
+.font-style-italic {
+  font-style: italic;
+}
